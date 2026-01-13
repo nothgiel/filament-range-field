@@ -1,12 +1,12 @@
 {
-    "name": "yepsua/filament-range-field",
+    "name": "nothgiel/filament-range-field",
     "description": "The missing range/slider field for the Filament forms.",
     "keywords": [
         "yepsua",
         "laravel",
         "filament-range-field"
     ],
-    "homepage": "https://github.com/yepsua/filament-range-field",
+    "homepage": "https://github.com/nothgiel/filament-range-field",
     "license": "MIT",
     "authors": [
         {
