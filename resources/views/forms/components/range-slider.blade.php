@@ -1,12 +1,6 @@
+{{-- Filament 3.2+ and 4: the field wrapper derives id/label/helper/hint/required/state path from :field
+     (Filament 4 no longer exposes $getHelperText()/$getHintIcon() to field views). --}}
 <x-dynamic-component
-    :id="$getId()"
-    :label="$getLabel()"
-    :label-sr-only="$isLabelHidden()"
-    :helper-text="$getHelperText()"
-    :hint="$getHint()"
-    :hint-icon="$getHintIcon()"
-    :required="$isRequired()"
-    :state-path="$getStatePath()"
     :component="$getFieldWrapperView()"
     :field="$field"
 >
